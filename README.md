@@ -1,32 +1,119 @@
-🏠 Housing Price Prediction & Analysis
-This repository contains the complete machine learning pipeline developed for in-depth analysis and forecasting of real estate prices. It chronicles the journey from raw data to final predictive models, including debugging and refinement steps.
+# 🏠 House Price Prediction
 
-✨ Features
-Data Preprocessing: Comprehensive scripts for cleaning, handling missing values, and feature engineering on housing datasets.
-ML Modeling: Implementation and comparison of various regression algorithms for accurate price prediction.
-Advanced Visualization: Generation of key visual outputs (e.g., scatter plots, histograms) to interpret feature relationships and model performance.
-Debugging Log: Documentation of overcoming execution errors (OSError) through the use of mock data simulation to ensure pipeline integrity.
-🚀 Getting Started
-Follow these steps to run the analysis locally:
+A machine learning project that predicts house prices using structured
+real estate data.\
+This project demonstrates data preprocessing, exploratory data analysis,
+feature engineering, model training, and evaluation in a clean and
+reproducible workflow.
 
-Prerequisites
-Make sure you have Python 3.x and the required libraries installed:
+------------------------------------------------------------------------
 
-bash
-pip install pandas numpy scikit-learn matplotlib seaborn
-Execution
-Clone the repository:
-bash
-    git clone https://github.com/Tahash44/Housing-Price-Prediction.git
-    cd Housing-Price-Prediction
-Run the main notebook:
-Open and execute the primary analysis notebook (e.g., analysis_notebook.ipynb).
+## 📌 Project Overview
 
-🛠️ Technologies Used
-Category	Tools/Libraries
-Data Handling	Pandas, NumPy
-Modeling	Scikit-learn
-Visualization	Matplotlib, Seaborn
-Environment	Jupyter Notebook
-🤝 Contributing
-Contributions are welcome! If you have suggestions for model improvements or better visualization techniques, please feel free to open an issue or submit a pull request.
+The goal of this project is to build a predictive model that estimates
+house prices based on various property features such as:
+
+-   Area (square footage)
+-   Number of bedrooms & bathrooms
+-   Location-related attributes
+-   Additional structural features
+
+The notebook walks through the complete machine learning pipeline from
+raw data to final evaluation.
+
+------------------------------------------------------------------------
+
+## 🧠 Technologies Used
+
+-   Python 3.x
+-   NumPy
+-   Pandas
+-   Matplotlib / Seaborn
+-   Scikit-learn
+-   Jupyter Notebook
+
+------------------------------------------------------------------------
+
+## ⚙️ Project Structure
+
+    house-price-predict.ipynb   # Main notebook containing full workflow
+    README.md                   # Project documentation
+
+------------------------------------------------------------------------
+
+## 🔍 Workflow
+
+1.  **Data Loading**
+    -   Import dataset
+    -   Initial inspection
+2.  **Exploratory Data Analysis (EDA)**
+    -   Statistical summaries
+    -   Correlation analysis
+    -   Data visualization
+3.  **Data Preprocessing**
+    -   Handling missing values
+    -   Feature scaling / encoding
+    -   Feature selection
+4.  **Model Training**
+    -   Train/test split
+    -   Model selection
+    -   Hyperparameter tuning
+5.  **Evaluation**
+    -   Performance metrics (e.g., MAE, MSE, R²)
+    -   Model comparison
+
+------------------------------------------------------------------------
+
+## 📊 Model Performance
+
+The model is evaluated using regression metrics such as:
+
+-   Mean Absolute Error (MAE)
+-   Mean Squared Error (MSE)
+-   R² Score
+
+Performance may vary depending on dataset size and feature quality.
+
+------------------------------------------------------------------------
+
+## 🚀 How to Run
+
+1.  Clone the repository
+2.  Install required dependencies:
+
+``` bash
+pip install -r requirements.txt
+```
+
+3.  Open the notebook:
+
+``` bash
+jupyter notebook house-price-predict.ipynb
+```
+
+4.  Run all cells to reproduce the results
+
+------------------------------------------------------------------------
+
+## 📈 Future Improvements
+
+-   Advanced feature engineering
+-   Cross-validation strategies
+-   Ensemble models
+-   Deployment with Flask or FastAPI
+-   Model serving via API
+
+------------------------------------------------------------------------
+
+## 👤 Author
+
+Parsa Gorji\
+Computer Engineering Student\
+Amir Kabir University of Technology
+
+------------------------------------------------------------------------
+
+## 📄 License
+
+This project is open-source and available for educational and research
+purposes.
