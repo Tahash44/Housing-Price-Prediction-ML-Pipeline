@@ -37,6 +37,7 @@ raw data to final evaluation.
 ## ⚙️ Project Structure
 
     house-price-predict.ipynb   # Main notebook containing full workflow
+    data.csv                    # House data
     README.md                   # Project documentation
 
 ------------------------------------------------------------------------
@@ -107,7 +108,7 @@ jupyter notebook house-price-predict.ipynb
 
 ## 👤 Author
 
-Parsa Gorji\
+Taha Shahrokh\
 Computer Engineering Student\
 Amir Kabir University of Technology
 
